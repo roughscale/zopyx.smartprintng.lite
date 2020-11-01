@@ -13,7 +13,7 @@ import BeautifulSoup
 from compatible import InitializeClass
 from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from zope.app.pagetemplate.viewpagetemplatefile import ViewPageTemplateFile as ViewPageTemplateFile2
+from zope.browserpage.viewpagetemplatefile import ViewPageTemplateFile as ViewPageTemplateFile2
 
 from zopyx.convert2 import Converter
 from zopyx.smartprintng.lite.logger import LOG
