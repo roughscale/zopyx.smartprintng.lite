@@ -25,7 +25,7 @@ setup(name='zopyx.smartprintng.lite',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'BeautifulSoup<=3.0.999',
+          'BeautifulSoup',
           'zopyx.convert2',
           # -*- Extra requirements: -*-
       ],
